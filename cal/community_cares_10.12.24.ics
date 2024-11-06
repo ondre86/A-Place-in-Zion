@@ -1,0 +1,40 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ical.marudot.com//iCal Event Maker
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+LAST-MODIFIED:20240422T053451Z
+TZURL:https://www.tzurl.org/zoneinfo-outlook/America/Chicago
+X-LIC-LOCATION:America/Chicago
+BEGIN:DAYLIGHT
+TZNAME:CDT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZNAME:CST
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20240920T204444Z
+UID:1726865021276-90029@ical.marudot.com
+DTSTART;TZID=America/Chicago:20241012T110000
+DTEND;TZID=America/Chicago:20241012T160000
+SUMMARY:Community Cares Day\, presented by A Place in Zion
+URL:https://www.eventbrite.com/e/951088239527?aff=oddtdtcreator
+DESCRIPTION:A Place in Zion\, in partnership with Red Balloon Works\, presents “Community Cares Day 2024”. \n\nThis event aims to reconnect and revitalize our community\, while offering fresh and engaging experiences for our young people.  We have encouraged businesses across Greater New Orleans Metropolitan area to participate\, sponsor\, and donate their time and resources. This event will provide mutual benefits to all\; our community receives much needed resources and the businesses receive fresh eyes and connections. \n\nSee you there!
+LOCATION:137 Becky Drive\, Avondale\, LA\, 70094
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Community Cares Day, presented by A Place in Zion
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

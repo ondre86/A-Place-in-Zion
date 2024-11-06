@@ -1,0 +1,42 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ical.marudot.com//iCal Event Maker
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+LAST-MODIFIED:20231222T233358Z
+TZURL:https://www.tzurl.org/zoneinfo-outlook/America/Chicago
+X-LIC-LOCATION:America/Chicago
+BEGIN:DAYLIGHT
+TZNAME:CDT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZNAME:CST
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20240808T172754Z
+UID:1723137914172-27173@ical.marudot.com
+DTSTART;TZID=America/Chicago:20240903T090000
+DTEND;TZID=America/Chicago:20240903T120000
+SUMMARY:Cracking the Code on Dementia in Long-Term Care
+URL:aplaceinzion.org/events
+DESCRIPTION:A Place In Zion Presents: Cracking the Code on Dementia facilitated by Veronica Calliet\, BSN\, RN\, Certified Montessori Dementia Care Practitioner (CMDCP)\n\nAs the #6 cause of death in the United States behind heart disease\, Alzheimer’s disease is a growing public health crisis in Louisiana. The impact of Alzheimer’s disease is projected to rise\, and the most recent data shows Louisiana has a projected increase between 17.4% and 22.6% in the number of people with Alzheimer’s disease between the years 2020 and 2025.\n\nThis seminar will discuss the relativity of this health crisis and the potential impact it will have on the communities and Long-Term Care Facilities across Louisiana. Innovative approaches will be discussed on how to develop a highly specialized memory care program or re-design an existing program. Various strategies will be discussed\, to maximize reimbursement\, create profit generating initiatives\, improve quality measures outcome\, enhance the overall quality of life of residents diagnosed with Alzheimer’s disease\, and tips to developing a motivated team to deliver high quality specialized memory care.\n\nPlease note: This date is a special installment for our Nursing Facility Administrators and Health Care Professionals ONLY.\n\nUpon completion of this course\, you will be able to:\n- Understand the basics of Dementia and the most common type of Dementia\, Alzheimer’s disease.\n- Discuss the various approaches to developing a specialized memory care program within a Long-Term Care setting.\n- Discuss proven strategies and tips to maximize reimbursement.\n- Discuss strategies for creating profit generating initiatives.\n- Discuss strategies to improve quality measures outcome.\n- Discuss strategies to enhance the overall quality of life of residents diagnosed with Alzheimer’s disease.\n- Discuss strategies on how to develop a motivated team to deliver high quality specialized memory care.\n\nCEUs Awarded:\n\nParticipants must be in attendance for the entire 3-hour session\, to receive a Certificate of Attendance with 3.0 hours of Continuing Education Units awarded.
+LOCATION:1201 Convention Center Boulevard Riverside 1 Meeting Room New Orleans\, LA 70130
+TRANSP:OPAQUE
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Cracking the Code on Dementia in Long-Term Care
+TRIGGER:-PT2H
+END:VALARM
+END:VEVENT
+END:VCALENDAR
