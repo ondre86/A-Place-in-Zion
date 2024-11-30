@@ -63,7 +63,7 @@ let card = {
 // GSAP
 document.addEventListener("DOMContentLoaded", (event) => {
     // ON LOAD DIALOG
-    setTimeout(openRSVPDialog, 1500);
+    // setTimeout(openRSVPDialog, 1500);
 
     let tl = gsap.timeline();
 
@@ -607,38 +607,38 @@ eForm.addEventListener("submit", (e)=>{
 // }
 
 // RSVP FORM
-let rsvpDialog = {
-    dialog: $("#rsvp")[0],
+// let rsvpDialog = {
+    // dialog: $("#rsvp")[0],
     // button: $("#r-button")[0], 
-    modalClose: $("#rsvp .modal-wrap .x")[0],
+    // modalClose: $("#rsvp .modal-wrap .x")[0],
     // name: $("#r-name")[0],
     // email: $("#r-email")[0],
     // reason: $("#r-reason")[0],
-}
-function openRSVPDialog(){
-    gsap.fromTo("#rsvp", {
-        scale: 0,
-        opacity: 0,
-        ease: "power2.out"
-    },
-    {
-        scale: 1,
-        opacity: 1,
-        duration: .5,
-        ease: "power2.out"
-    })
-}
-function rModalClose(){
-    gsap.to("#rsvp", {
-        opacity: 0,
-        scale: 0,
-        duration: .5,
-        ease: "power2.out"
-    })
-}
+// }
+// function openRSVPDialog(){
+//     gsap.fromTo("#rsvp", {
+//         scale: 0,
+//         opacity: 0,
+//         ease: "power2.out"
+//     },
+//     {
+//         scale: 1,
+//         opacity: 1,
+//         duration: .5,
+//         ease: "power2.out"
+//     })
+// }
+// function rModalClose(){
+//     gsap.to("#rsvp", {
+//         opacity: 0,
+//         scale: 0,
+//         duration: .5,
+//         ease: "power2.out"
+//     })
+// }
 // rsvpDialog.button.addEventListener("click", openRSVPDialog)
 // rsvpDialog.button.addEventListener("keydown", openRSVPDialog)
-rsvpDialog.modalClose.addEventListener("click", rModalClose)
+// rsvpDialog.modalClose.addEventListener("click", rModalClose)
 
 
 // MOBILE MENU
